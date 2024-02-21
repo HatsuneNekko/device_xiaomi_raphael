@@ -15,12 +15,12 @@ $(call inherit-product, device/xiaomi/raphael/device.mk)
 # Inherit some common miku stuff.
 $(call inherit-product, vendor/miku/build/product/miku_product.mk)
 
-# Matrixx
-MATRIXX_BUILD_TYPE := Personal
-MATRIXX_MAINTAINER := NATO66613
-MATRIXX_CHIPSET := SM8150
-MATRIXX_BATTERY := 4000mAh
-MATRIXX_DISPLAY := 1080x2400
+# MIKU
+MIKU_BUILD_TYPE := UNOFFICIAL
+MIKU_MAINTAINER := HatsuneNeeko/NeekoOfficial
+MIKU_CHIPSET := SM8150
+MIKU_BATTERY := 4000mAh
+MIKU_DISPLAY := 1080x2400
 WITH_GMS := true
 TARGET_HAS_UDFPS := true
 TARGET_BOOT_ANIMATION_RES := 1080
