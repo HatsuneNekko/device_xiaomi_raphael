@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/miku_[codename].mk
+    $(LOCAL_DIR)/miku_raphael.mk
 
 COMMON_LUNCH_CHOICES := \
-    miku_[codename]-user \
-    miku_[codename]-userdebug \
-    miku_[codename]-eng
+    miku_raphael-user \
+    miku_raphael-userdebug \
+    miku_raphael-eng
